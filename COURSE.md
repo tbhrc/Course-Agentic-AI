@@ -1,8 +1,8 @@
-# Course Roadmap — Practical AI & Agentic AI for André Venter
+# Course Roadmap — Practical Agentic AI
 
 ## Outcome
 
-By the end of this course, André should be able to build and operate a useful AI system rather than merely use a chatbot.
+By the end of this course, the learner should be able to build and operate a useful AI system rather than merely use a chatbot.
 
 The course is intentionally **builder-first**. Coding theory, APIs and orchestration are introduced when a real project needs them.
 
@@ -59,7 +59,7 @@ Learn:
 - how bad instructions cause agent drift;
 - how to test an instruction file.
 
-**Artifact:** André writes and tests his first `AGENTS.md`.
+**Artifact:** the learner writes and tests a first `AGENTS.md`.
 
 ---
 
@@ -195,7 +195,7 @@ Learn:
 **Build:** design a small state model for an agent.
 
 ### Module 11 — Debugging and evaluation
-**Goal:** troubleshoot agents the way André already troubleshoots technical systems.
+**Goal:** troubleshoot agents systematically by isolating the failing layer.
 
 Learn:
 - reproduce the failure;
@@ -247,7 +247,7 @@ capable model
 ### Module 14 — Capstone build
 Choose one real project.
 
-Strong candidates for André:
+Example capstone directions:
 
 1. **Studio / Audio Session Assistant**
    - session intake;
@@ -324,7 +324,7 @@ Learn:
 
 # Graduation test
 
-André receives a new practical problem.
+The learner receives a new practical problem.
 
 Without being given the architecture, he must be able to:
 
