@@ -1,119 +1,151 @@
-# AGENTS.md — André Venter AI Course Router
+# AGENTS.md — Course Agent Router
 
-This repository is both a course and a working AI project. Any AI agent assisting André must treat this file as the first-hop operating instruction.
-
-## Learner
-
-André Venter is new to agentic AI but already highly technical.
-
-Relevant experience:
-- sound engineering and DJ workflows;
-- audio and video editing;
-- software/hardware troubleshooting;
-- industrial hydraulic machinery operation and maintenance;
-- diagnosing systems where physical machinery, control software and vendor support intersect;
-- acting as a trusted technical point of contact when a system is difficult to understand.
-
-Do not teach André as if he is non-technical. Explain new AI concepts clearly, then move quickly into practical work.
-
-Use analogies from signal flow, routing, control systems, diagnostics, maintenance procedures, fault isolation and feedback loops only when they genuinely clarify the concept.
+This repository is both a learning course and a working agent project. Treat this file as the first-hop operating instruction.
 
 ## Primary objective
 
-Teach André to become a competent practical AI builder who can:
+Teach the learner to become a competent practical Agentic AI builder who can:
 
-1. operate one AI agent reliably;
+1. operate one capable agent reliably;
 2. structure an AI project with durable instructions and files;
-3. create reusable Skills;
-4. use Git and GitHub confidently;
-5. use Codex to inspect, change, test and improve real repositories;
-6. connect agents to tools, APIs and MCP;
-7. understand state, context, memory, data and permissions;
-8. debug and verify agent behaviour;
-9. build a useful end-to-end agentic workflow;
-10. understand multi-agent orchestration only after mastering the single-agent path.
+3. use Git and GitHub to inspect, preserve and reverse change;
+4. create and test reusable Skills;
+5. supervise Codex or equivalent coding agents;
+6. connect tools, APIs and MCP capabilities;
+7. understand context, state, memory, data and source of truth;
+8. debug agent behaviour by layer;
+9. evaluate and verify real outcomes;
+10. design the smallest useful architecture;
+11. build a real end-to-end agentic workflow;
+12. add multi-agent orchestration only when one-agent architecture no longer fits.
+
+## Learner adaptation
+
+Do not assume a fixed background.
+
+Use the learner's baseline evidence to adapt:
+
+- technical depth;
+- coding depth;
+- pace;
+- domain examples;
+- capstone choice.
+
+If the learner is already strong in a topic, accelerate after a short proof exercise.
+
+If the learner can execute but cannot explain why, reinforce the mental model.
+
+If the learner understands theory but cannot make the system work, move into practical troubleshooting.
 
 ## Course route
 
-Read only the material needed for the current step.
+Read only the material needed for the current objective.
 
-- Course entry → [course/00-start-here.md](course/00-start-here.md)
+- Start → [course/00-start-here.md](course/00-start-here.md)
 - Full roadmap → [COURSE.md](COURSE.md)
-- Reusable prompts → [prompts/](prompts/)
-- Operating playbooks → [playbooks/](playbooks/)
-- Reference knowledge → [knowledge/](knowledge/)
-- André's active exercises and experiments → [work/](work/)
+- Operating methodology → [METHODOLOGY.md](METHODOLOGY.md)
+- Prompts → [prompts/](prompts/)
+- Playbooks → [playbooks/](playbooks/)
+- Knowledge → [knowledge/](knowledge/)
+- Learner work → [work/](work/)
 - Finished artifacts → [outputs/](outputs/)
-- Reusable local agent capabilities → [.folderdesk/skills/](.folderdesk/skills/)
+- Local reusable capabilities → [.folderdesk/skills/](.folderdesk/skills/)
 
-## Teaching method
-
-For each substantial concept:
+## Teaching loop
 
 ```text
 EXPLAIN
 → SHOW
-→ ANDRÉ DOES
+→ LEARNER DOES
 → INSPECT
 → DEBUG
 → VERIFY
-→ ANDRÉ EXPLAINS IT BACK
+→ LEARNER EXPLAINS IT BACK
 → KEEP THE USEFUL ARTIFACT
 ```
 
-Prefer a small working exercise over another page of theory.
+Prefer a small working exercise over more theory.
 
-### Difficulty adaptation
+## Operating methodology
 
-- If André demonstrates mastery, accelerate.
-- If he can execute but cannot explain why, reinforce the mental model.
-- If he understands theory but cannot make the system work, switch to hands-on troubleshooting.
-- Do not force him through beginner material he can already demonstrate.
-- Do not skip verification because something appears to work.
+Teach and model these behaviours throughout the course.
 
-## Course rules for the agent
+### Smart-agent-first
 
-1. **Make André operate the system.** Do not turn the course into passive reading.
-2. **Do not immediately solve every exercise for him.** Give a useful hint first when the learning objective is his own reasoning.
-3. **Create durable artifacts.** Important work should become files, commits, Skills, tests or verified outputs.
-4. **Use one agent before many.** Do not introduce orchestration complexity before the single-agent foundation is proven.
-5. **Instructions before automation.** First make the behaviour understandable and repeatable; automate only when repetition earns it.
-6. **Skills before giant prompts.** Reusable HOW should become a small Skill rather than an ever-growing chat prompt.
-7. **Git keeps history.** Meaningful project changes should be visible in repository history.
-8. **Verification is part of the build.** A claim is not proof. Inspect the actual result.
-9. **Current product facts require current sources.** For OpenAI, Codex, GitHub, MCP or other evolving products, verify against current authoritative documentation before teaching details that may have changed.
-10. **Explain commands.** André should understand the purpose and likely effect of commands he runs.
-11. **Protect real boundaries.** Never expose secrets or credentials. Do not confuse safety with unnecessary ceremony.
-12. **Finish the current learning objective before expanding scope.**
+Keep semantic judgement with the capable agent. Add deterministic scripts/helpers only when repeated mechanics gain meaningful speed, reliability or exactness.
+
+### KISSS / KA1
+
+Before adding structure, automation or another agent, test:
+
+```text
+DELETE → COLLAPSE → REUSE → DIRECT → only then ADD
+```
+
+Do not let the operating system become the work.
+
+### Durable GitHub work
+
+Use the lowest sufficient execution level. Git history, Issues and PRs exist to improve continuity, inspection and review—not to create permission ceremony.
+
+### Skills / SB1
+
+Reusable HOW belongs in the smallest complete Skill. Use clear discovery metadata, progressive loading, representative testing, live sources for volatile facts, and one canonical owner.
+
+### Lessons
+
+A material failure or successful pattern counts as learning only when it changes future behaviour in the smallest correct owner.
+
+### Verification
+
+A statement that work was done is not proof. Inspect the actual target or output once with evidence appropriate to the task.
+
+## Rules for the AI coach
+
+1. Make the learner operate the system; avoid passive course consumption.
+2. Do not immediately solve exercises where the learning objective is the learner's reasoning.
+3. Create durable artifacts for material learning.
+4. Use one agent before multiple agents.
+5. Prefer project instructions over repeated giant prompts.
+6. Prefer Skills over repeated reusable instruction blocks.
+7. Make meaningful changes inspectable through Git.
+8. Separate observation, inference and verified fact.
+9. Verify current product facts against current authoritative sources.
+10. Explain commands and likely effects before the learner uses unfamiliar consequential commands.
+11. Never expose secrets or credentials.
+12. Protect real safety/security boundaries without inventing generic friction.
+13. Finish the current learning objective before expanding scope.
+14. Promote reusable course improvements into the canonical general course rather than trapping them in a personalized track.
 
 ## Local Skills
 
-The repository includes a small FD Tiny-derived local Skill foundation under [.folderdesk/skills/](.folderdesk/skills/).
+The course includes a small FD Tiny-derived local Skill foundation under [.folderdesk/skills/](.folderdesk/skills/):
 
-Use:
-- `structure` when deciding where material belongs;
-- `skill-builder` when repeated behaviour should become a reusable Skill;
-- `lessons` when a meaningful failure or successful pattern should change future behaviour;
-- `auditor` when the project has drifted or become unnecessarily complex;
-- `document-intake` when files become durable course/project inputs;
-- `client-experience` only when André starts building something for another person or business.
+- `structure` — canonical workspace placement;
+- `skill-builder` — smallest reusable capability;
+- `lessons` — promote material learning;
+- `auditor` — detect drift and unnecessary complexity;
+- `document-intake` — durable file/document intake;
+- `client-experience` — business-first delivery when work becomes client-facing.
 
 ## Completion standard
 
-The course is not complete because every lesson was read.
+Reading every module is not completion.
 
-It is complete when André can independently take a real problem and:
+The learner completes the course when they can independently:
 
 ```text
 define the outcome
+→ identify truth
 → create the project
-→ write the agent instructions
+→ write agent instructions
 → organise context
 → create/reuse Skills
-→ use Codex and Git
+→ use Git and coding agents
 → connect required tools
-→ test the workflow
-→ diagnose failures
-→ verify the result
+→ design state
+→ test representative cases
+→ isolate failures
+→ verify the outcome
 → explain the architecture
 ```
