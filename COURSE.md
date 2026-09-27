@@ -226,7 +226,7 @@ Learn:
 
 ## Phase 6 — Build a real agent
 
-### Module 13 — Architecture the smallest useful system
+### [Module 13 — Architecture the smallest useful system](course/13-smallest-useful-architecture.md)
 **Goal:** choose the minimum architecture that solves a real problem.
 
 Default order:
@@ -242,9 +242,9 @@ capable model
 → orchestration only if needed
 ```
 
-**Artifact:** architecture diagram + proof plan.
+**Build:** complete the [KISSS architecture lab](labs/13-kisss-architecture-lab.md) and use the [architecture proof template](templates/architecture-proof-template.md).
 
-### Module 14 — Capstone build
+### [Module 14 — Capstone build](course/14-capstone.md)
 Choose one real project.
 
 Example capstone directions:
@@ -291,7 +291,7 @@ The capstone must solve a real problem and include:
 
 ## Phase 7 — Advanced only after the foundation
 
-### Module 15 — Multi-agent systems
+### [Module 15 — Multi-agent systems](course/15-multi-agent-systems.md)
 Only now introduce:
 - specialist agents;
 - handoffs;
@@ -307,7 +307,7 @@ It is:
 
 > Does separating this job into multiple agents produce a clearer, more reliable system than one well-instructed agent with the right tools?
 
-### Module 16 — Production thinking
+### [Module 16 — Production thinking](course/16-production-thinking.md)
 Learn:
 - deployment;
 - monitoring;
@@ -321,6 +321,10 @@ Learn:
 - user experience.
 
 ---
+
+# Graduation
+
+Complete the full [Graduation Challenge](GRADUATION.md) and then follow the [30/60/90 Day Continuation Path](CONTINUATION.md).
 
 # Graduation test
 
