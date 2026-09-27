@@ -13,4 +13,4 @@ Use this for each new capability.
 9. **Explain the concept back without notes.**
 10. **Keep the useful artifact in Git.**
 
-Do not move on because the explanation sounded clear. Move on when André can operate the concept.
+Do not move on because the explanation sounded clear. Move on when the learner can operate the concept.
