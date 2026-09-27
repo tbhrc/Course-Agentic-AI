@@ -1,6 +1,6 @@
 # Work
 
-This is André's active learning and experiment area.
+This is the learner's active learning and experiment area.
 
 Course exercises should normally create their working artifacts here.
 
