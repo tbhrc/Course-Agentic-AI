@@ -48,6 +48,8 @@ AI mental models
 
 See [COURSE.md](COURSE.md) for the complete roadmap.
 
+Final proof: [GRADUATION.md](GRADUATION.md) · Continued practice: [CONTINUATION.md](CONTINUATION.md)
+
 ## Repository map
 
 - [AGENTS.md](AGENTS.md) — operating instructions for the learner's AI coach
@@ -61,6 +63,9 @@ See [COURSE.md](COURSE.md) for the complete roadmap.
 - [playbooks/](playbooks/) — practical operating/debugging procedures
 - [knowledge/](knowledge/) — reference knowledge
 - [templates/](templates/) — small starter templates
+- [rubrics/](rubrics/) — evidence-based verification criteria
+- [checklists/](checklists/) — proportional production checks
+- [tests/](tests/) — cold-start/course-operability tests
 - [work/](work/) — learner working area
 - [outputs/](outputs/) — completed artifacts
 - [.folderdesk/skills/](.folderdesk/skills/) — small FD Tiny-derived local Skill foundation
