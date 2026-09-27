@@ -2,54 +2,56 @@
 
 ## Objective
 
-Build a practical mental model of modern AI without starting with neural-network mathematics.
+Build a practical mental model of modern AI without beginning with neural-network mathematics.
 
 ## 1. Model, assistant and agent
 
-A useful distinction:
+A useful engineering distinction:
 
 ```text
 MODEL
 reasoning/generation engine
 
 ASSISTANT
-model + instructions + conversation interface + some capabilities
+model + instructions + conversation interface + capabilities
 
 AGENT
 model + goal + instructions + context + tools + state + execution loop + verification
 ```
 
-These are not perfect universal definitions, but they are useful engineering models.
+These are working definitions, not universal legal definitions.
 
-### Sound-engineering analogy
+### Systems analogy
 
-A model is not the whole PA system.
+A powerful processor is not the whole system.
 
-It is closer to a powerful processing component inside the chain.
+A useful technical system also has inputs, routing, controls, state, outputs, feedback and an operator.
 
-The useful system includes routing, sources, controls, outputs, feedback and an operator. Agentic AI is similar: the model matters, but the surrounding system determines what the model can see, do, remember and verify.
+Agentic AI is similar: the model matters, but the surrounding environment determines what it can see, do, remember and verify.
 
 ## 2. Probabilistic reasoning vs deterministic software
 
 Traditional code often follows explicit rules.
 
-A model predicts/reasons probabilistically. That makes it powerful for ambiguous work, but it can also:
+A model reasons probabilistically. That makes it strong at ambiguous semantic work, but it can also:
+
 - infer the wrong intent;
 - fabricate missing information;
 - choose a poor path;
 - produce an answer that sounds correct without evidence.
 
-Good agent engineering combines model reasoning with deterministic components where exactness matters.
+Good agent engineering combines model judgement with deterministic components where exactness or repeated mechanics justify them.
 
 ## 3. Instructions
 
 Instructions define stable behaviour.
 
 Examples:
+
 - what the agent's job is;
 - where truth lives;
 - what files it should read;
-- what it is allowed to change;
+- what tools it may use;
 - what must be verified;
 - when it should stop.
 
@@ -60,6 +62,7 @@ A one-off task prompt is not the same as durable project instructions.
 Context is what the model can use for the current decision.
 
 Possible context:
+
 - your current message;
 - previous conversation;
 - project instructions;
@@ -76,7 +79,8 @@ A model can reason about sending an email.
 
 A tool is what actually allows the agent to send it.
 
-Common tools:
+Common tools include:
+
 - filesystem;
 - terminal;
 - browser;
@@ -92,12 +96,13 @@ Common tools:
 State is information that survives beyond a single reasoning step.
 
 Examples:
+
 - files;
-- a Git commit;
-- a database row;
-- an issue status;
-- a saved configuration;
-- a durable memory record.
+- Git commits;
+- database rows;
+- issue status;
+- saved configuration;
+- durable memory.
 
 A chat response is not automatically durable state.
 
@@ -111,26 +116,32 @@ A useful reliability hierarchy:
 agent says it happened
 < agent shows generated output
 < agent inspects the actual target
-< independent check proves the target state
+< independent state/test proves the real outcome
 ```
 
 ## Practical exercise — map a familiar system
 
 Create `work/01-system-map.md`.
 
-Choose either:
-- an audio signal chain;
-- your hydraulic system;
-- a video-editing workflow.
+Choose any system you already understand well, for example:
 
-Map it using:
+- a sales process;
+- a recruitment workflow;
+- an audio or video chain;
+- a financial approval process;
+- a software deployment;
+- an industrial machine;
+- a research workflow;
+- a personal productivity system.
+
+Map:
 
 - inputs;
 - processing/reasoning;
 - instructions/settings;
-- tools/actuators;
+- tools/actions;
 - state;
-- output;
+- outputs;
 - feedback/verification;
 - failure points.
 
@@ -148,4 +159,4 @@ Without looking at this lesson, explain:
 
 ## Pass condition
 
-Your AI should challenge unclear answers rather than simply congratulating you.
+Your AI coach should challenge unclear answers rather than simply congratulate you.
