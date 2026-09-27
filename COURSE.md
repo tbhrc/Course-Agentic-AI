@@ -96,17 +96,13 @@ Learn:
 
 **Build:** complete the [first Skill workshop](workshops/05-first-skill-workshop.md), test it using the [Skill testing playbook](playbooks/skill-testing-debugging.md), then complete the [Skill graduation exercise](course/05-skill-graduation.md).
 
-Suggested starting domains:
-- audio session preparation;
-- DJ set preparation;
-- technical fault-isolation checklist;
-- hydraulic machine troubleshooting handover.
+Suggested starting domains should come from the learner's own work or interests. Examples include sales, recruitment, finance, software, research, creative production, engineering, operations or personal productivity.
 
 ---
 
 ## Phase 3 — Codex as a technical worker
 
-### Module 6 — Codex fundamentals
+### [Module 6 — Codex fundamentals](course/06-codex-fundamentals.md)
 **Goal:** supervise an agent working directly on a repository.
 
 Learn:
@@ -121,9 +117,9 @@ Learn:
 - rollback;
 - repository instructions.
 
-**Build:** modify a small real repository with Codex and verify the result.
+**Build:** complete the [Codex supervision lab](labs/06-codex-supervision-lab.md) against the included failing starter repository, then review the result with the [Codex supervision playbook](playbooks/codex-supervision.md).
 
-### Module 7 — Coding literacy for AI builders
+### [Module 7 — Coding literacy for AI builders](course/07-coding-literacy.md)
 **Goal:** learn enough code to supervise, debug and extend AI-built systems.
 
 Focus:
@@ -139,6 +135,8 @@ Focus:
 - Python and/or TypeScript as practical implementation languages.
 
 This is **not** a traditional programming course. Every coding concept must connect to a real agent/build task.
+
+**Build:** complete the [coding literacy lab](labs/07-coding-literacy-lab.md) and the [diff/debug/rollback lab](labs/07-diff-debug-rollback.md).
 
 ---
 
@@ -326,7 +324,7 @@ Learn:
 
 The learner receives a new practical problem.
 
-Without being given the architecture, he must be able to:
+Without being given the architecture, the learner must be able to:
 
 1. clarify the outcome;
 2. identify the source of truth;
