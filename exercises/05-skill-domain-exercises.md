@@ -1,138 +1,86 @@
-# Skill Exercises — André's Technical Domains
+# Skill Exercises — Cross-Domain Practice
 
-These exercises use domains you already understand.
+Choose at least **two** exercises from different domains.
 
-The point is not to test your audio, DJ or maintenance expertise.
+The objective is to learn how domain expertise becomes reusable AI operating behaviour.
 
-The point is to test whether you can convert expertise into a reusable AI operating procedure.
+## Exercise A — Meeting Decision Brief
 
-Choose at least **two** exercises.
+Build a Skill that turns meeting notes/transcripts into:
 
----
+- decisions;
+- owners;
+- actions;
+- deadlines when explicitly stated;
+- unresolved questions;
+- source references.
 
-# Exercise A — Audio Session Preflight
+Failure to prevent: inventing commitments that were not actually made.
 
-## Repeated job
+## Exercise B — Candidate Screening Summary
 
-Prepare a live or studio session before the technical work starts.
+Build a Skill that evaluates a candidate against explicit job criteria.
 
-## Candidate input
+Requirements:
 
-- event/session brief;
-- venue information;
-- input/channel list;
-- known equipment;
-- timing;
-- performer/client requirements.
+- distinguish evidence from inference;
+- show missing criteria;
+- preserve quantitative requirements exactly;
+- do not invent experience from job titles.
 
-## Candidate outcome
+Failure to prevent: confident recommendation without supporting evidence.
 
-A concise technical preflight showing:
+## Exercise C — Sales Account Update
 
-- what is confirmed;
-- what is missing;
-- what must be checked;
-- what may block the session;
-- what should happen before sound check.
+Build a Skill that turns CRM/email/meeting evidence into a concise account update.
 
-## Your job
+Output:
 
-Design a Skill that does **not** invent missing technical information.
+- current state;
+- recent meaningful change;
+- open commitments;
+- risks/blockers;
+- next action.
 
-### Discovery tests
+Failure to prevent: duplicated or stale account truth.
 
-Should trigger:
+## Exercise D — Research Evidence Brief
 
-> Prepare a technical preflight for tomorrow's live sound session from this input list and venue brief.
+Build a Skill that synthesizes multiple sources into:
 
-Should probably not trigger:
+- supported findings;
+- source references;
+- contradictions;
+- uncertainty;
+- implications.
 
-> Explain the difference between dynamic and condenser microphones.
+Failure to prevent: flattening disagreement into fake consensus.
 
-### Failure to watch for
+## Exercise E — Code Change Review
 
-AI invents:
+Build a Skill that reviews a Git diff against project instructions and acceptance criteria.
 
-- equipment availability;
-- power specifications;
-- patching;
-- channel assignments;
-- venue capabilities.
+Failure to prevent: commenting on general code style while missing the requested behavioural change.
 
-Your Skill should distinguish **known**, **missing** and **recommended**.
+## Exercise F — Creative Production Preflight
 
----
+Use audio, video, design, content or another creative workflow.
 
-# Exercise B — DJ Set Preparation
+The Skill should identify:
 
-## Repeated job
+- confirmed inputs;
+- missing assets;
+- technical constraints;
+- approval requirements;
+- preflight checks.
 
-Turn an event brief plus a track pool into a structured set-preparation plan.
+Failure to prevent: inventing missing production specifications.
 
-## Candidate input
+## Exercise G — Technical / Maintenance Handover
 
-- event type;
-- audience;
-- expected duration;
-- track list;
-- BPM/key/energy metadata where available;
-- restrictions or must-play tracks.
+Turn raw observations into a vendor or engineering escalation.
 
-## Candidate outcome
-
-A preparation plan with:
-
-- event constraints;
-- track pools;
-- energy progression;
-- transition considerations;
-- metadata gaps;
-- rehearsal checks.
-
-## Important boundary
-
-The Skill should not pretend there is one mathematically perfect set order.
-
-The agent should retain judgement.
-
-### Discovery tests
-
-Should trigger:
-
-> Help me prepare this track pool for a four-hour corporate DJ set.
-
-Should not automatically trigger:
-
-> Who produced this song?
-
-### Failure to watch for
-
-Over-automation.
-
-If the Skill becomes a deterministic "sort by BPM and call it a set," it has removed the creative judgement that makes the work valuable.
-
----
-
-# Exercise C — Maintenance Vendor Handover
-
-## Repeated job
-
-Turn raw machine fault observations into a clean escalation for the manufacturer or service vendor.
-
-## Candidate input
-
-- symptoms;
-- timestamps;
-- alarms;
-- measurements;
-- sequence of events;
-- interventions already tried;
-- photos/log references;
-- unresolved questions.
-
-## Candidate outcome
-
-A vendor-ready technical handover that separates:
+Separate:
 
 ```text
 OBSERVATION
@@ -141,106 +89,44 @@ ACTION TAKEN
 RESULT
 HYPOTHESIS
 MISSING EVIDENCE
-QUESTION FOR VENDOR
+QUESTION
 ```
 
-## Discovery tests
+Failure to prevent: converting a hypothesis into a confirmed cause.
 
-Should trigger:
+## Exercise H — Finance Review Pack
 
-> Prepare these machine-fault notes for the manufacturer's technical team.
+Use defined financial inputs to produce a review summary.
 
-Should not automatically trigger:
+Requirements:
 
-> Write a preventive maintenance calendar.
+- preserve numeric values;
+- show source period;
+- distinguish actual, budget, forecast and assumption;
+- flag missing data.
 
-### Failure to watch for
-
-The AI converts a hypothesis into a fact.
-
-Your Skill should make that difficult.
-
----
-
-# Exercise D — Hydraulic Fault Diagnostic Intake
-
-## Repeated job
-
-Structure the first diagnostic pass for a hydraulic fault.
-
-This is **not** a Skill that should autonomously declare the machine safe, diagnose beyond the evidence, or instruct unqualified people to perform hazardous interventions.
-
-Its purpose is **structured evidence and troubleshooting intake**.
-
-## Candidate input
-
-- symptoms;
-- pressure readings;
-- temperature;
-- alarms;
-- actuator behaviour;
-- operating state;
-- recent maintenance;
-- known changes.
-
-## Candidate outcome
-
-A structured diagnostic record with:
-
-- observed symptoms;
-- exact measured values;
-- missing measurements;
-- relevant recent changes;
-- possible subsystem categories;
-- next evidence to collect;
-- escalation notes.
-
-## Discovery tests
-
-Should trigger:
-
-> Structure these readings and symptoms into a hydraulic fault diagnostic intake.
-
-Should not automatically trigger:
-
-> Tell me how to bypass this safety interlock.
-
-### Failure to watch for
-
-The AI jumps from symptom to confident root cause.
-
-The Skill should preserve uncertainty and evidence boundaries.
-
----
+Failure to prevent: mixing periods or presenting assumptions as actuals.
 
 # Comparative exercise
 
-After building two Skills, compare them.
-
-Create:
-
-```text
-work/05-skill-comparison.md
-```
+After two Skills, create `work/05-skill-comparison.md`.
 
 Answer:
 
 1. Which rules are truly domain-specific?
-2. Which rules are generic agent behaviour and should be removed?
-3. Did either Skill need a reference file?
-4. Did either Skill need deterministic code?
-5. Which Skill had a clearer trigger?
+2. Which are generic agent behaviour and should be removed?
+3. Did either Skill need a reference?
+4. Did either need deterministic code?
+5. Which had clearer discovery metadata?
 6. Which was easier to test?
-7. Which one would save you the most repeated explanation in real life?
+7. Which saves the most repeated explanation?
 
 ## Advanced challenge
 
 Ask your AI:
 
-> Try to merge these two Skills into one generic technical-assistant Skill.
+> Try to merge these two Skills into one generic assistant Skill.
 
-Then evaluate the result.
+Evaluate what is lost.
 
-In many cases the merged Skill becomes less discoverable and less precise.
-
-Explain why.
+Often the merged Skill becomes harder to discover, broader than necessary and less precise. Explain whether that happened and why.
