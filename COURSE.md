@@ -176,7 +176,7 @@ Learn:
 
 ## Phase 5 — Reliability
 
-### Module 10 — Context, memory, state and data
+### [Module 10 — Context, memory, state and data](course/10-context-memory-state-data.md)
 **Goal:** understand what persists and where truth lives.
 
 Learn:
@@ -190,9 +190,9 @@ Learn:
 - retrieval;
 - avoiding duplicated truth.
 
-**Build:** design a small state model for an agent.
+**Build:** complete the [source-of-truth and state-design workshop](workshops/10-source-of-truth-state-design.md).
 
-### Module 11 — Debugging and evaluation
+### [Module 11 — Debugging and evaluation](course/11-debugging-and-evals.md)
 **Goal:** troubleshoot agents systematically by isolating the failing layer.
 
 Learn:
@@ -205,9 +205,9 @@ Learn:
 - regressions;
 - changing one variable at a time.
 
-**Build:** intentionally break an agent workflow and diagnose it.
+**Build:** complete the [deliberate failure/regression lab](labs/11-deliberate-failure-regression.md) and [representative eval exercise](labs/11-representative-eval.md), using the [fault-isolation playbook](playbooks/agent-fault-isolation.md).
 
-### Module 12 — Safety, permissions and human control
+### [Module 12 — Safety, permissions and human control](course/12-safety-permissions-human-control.md)
 **Goal:** make useful systems without hiding risk.
 
 Learn:
@@ -219,6 +219,8 @@ Learn:
 - prompt injection;
 - audit evidence where it adds value;
 - human-in-the-loop design.
+
+**Build:** complete the [prompt-injection/untrusted-input lab](labs/12-prompt-injection-untrusted-input.md) and [permission/human-control lab](labs/12-permission-boundaries.md).
 
 ---
 
