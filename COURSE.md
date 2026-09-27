@@ -249,33 +249,12 @@ Choose one real project.
 
 Example capstone directions:
 
-1. **Studio / Audio Session Assistant**
-   - session intake;
-   - checklist;
-   - file/track organisation;
-   - issue detection;
-   - handover notes.
-
-2. **DJ Set Preparation Agent**
-   - track metadata;
-   - energy/BPM/key planning;
-   - crate organisation;
-   - event brief;
-   - set review.
-
-3. **Industrial Maintenance Knowledge Agent**
-   - maintenance procedure library;
-   - fault symptoms;
-   - evidence capture;
-   - troubleshooting tree;
-   - vendor handover preparation.
-
-4. **Hydraulic System Diagnostic Assistant**
-   - symptoms → likely subsystem;
-   - inspection sequence;
-   - measured values;
-   - maintenance history;
-   - escalation packet.
+- business operations / customer / recruitment / finance;
+- research and knowledge work;
+- creative production / media;
+- technical / engineering / maintenance;
+- software / repository operations;
+- personal operating workflows.
 
 The capstone must solve a real problem and include:
 - repository instructions;
