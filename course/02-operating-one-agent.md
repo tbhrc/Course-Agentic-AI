@@ -33,22 +33,23 @@ When should it stop rather than expanding the task?
 
 ## Example — weak request
 
-> Help me organise my DJ music.
+> Help me organise our customer research.
 
 Problems:
+
 - no clear outcome;
 - no source/location;
 - no definition of organised;
 - no acceptance check;
-- no boundary on what may be changed.
+- no boundary on what may be changed or inferred.
 
 ## Example — controlled task
 
-> Inspect the sample track list in `work/dj-library-sample.csv`. Propose a folder/tagging scheme that preserves the original files, supports fast filtering by BPM, energy and event type, and does not invent missing metadata. Create the proposal in `outputs/dj-library-organisation.md`. Success means every sample track can be routed by the scheme and all unknown metadata is clearly marked rather than guessed. Do not rename or delete source files.
+> Inspect the interview notes in `work/customer-research/`. Create `outputs/research-themes.md` with recurring themes, supporting source references and unresolved contradictions. Do not invent customer statements or merge conflicting evidence into a false consensus. Success means every reported theme points back to at least one source note and uncertain interpretations are labelled.
 
-That is much closer to an executable engineering task.
+That is much closer to an executable agent task.
 
-## The operating loop
+## Operating loop
 
 ```text
 BRIEF
@@ -66,12 +67,14 @@ Create `work/02-agent-briefs.md`.
 
 Rewrite these as controlled Agent Briefs:
 
-1. “Fix my audio workflow.”
-2. “Research this hydraulic fault.”
-3. “Make my video files easier to manage.”
-4. One real task of your own.
+1. “Improve our sales process.”
+2. “Research this problem.”
+3. “Organise these files.”
+4. “Review this code.”
+5. One real task of your own.
 
 Each must contain:
+
 - outcome;
 - context;
 - inputs;
