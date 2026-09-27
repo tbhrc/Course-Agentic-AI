@@ -2,7 +2,7 @@
 
 ## Objective
 
-Move the agent's operating behaviour out of one chat and into the project.
+Move stable agent operating behaviour out of one chat and into the project.
 
 ## Why project instructions matter
 
@@ -10,11 +10,11 @@ If you repeatedly type:
 
 - always verify changes;
 - put finished work in this folder;
-- never delete source files;
+- never modify source evidence;
 - use this naming convention;
 - read this reference first;
 
-then the project is carrying important operational knowledge only in your head or chat history.
+then important operational knowledge exists only in your head or chat history.
 
 A durable instruction file turns those rules into part of the working environment.
 
@@ -38,11 +38,11 @@ A good root `AGENTS.md` usually answers:
 
 Stable project rule:
 
-> Never alter original source audio. Work on copies under `work/`.
+> Preserve original source evidence. Put working transformations under `work/`.
 
 Task instruction:
 
-> Analyse the four tracks uploaded today and produce mix notes.
+> Analyse today's five interview notes and produce a theme summary.
 
 The first belongs in durable project instructions. The second belongs in the task.
 
@@ -64,10 +64,10 @@ This keeps context smaller and clearer.
 
 ## Exercise — build a clean-room agent project
 
-Create this under `work/first-agent-project/`:
+Create:
 
 ```text
-first-agent-project/
+work/first-agent-project/
 ├── README.md
 ├── AGENTS.md
 ├── knowledge/
@@ -75,12 +75,18 @@ first-agent-project/
 └── outputs/
 ```
 
-Pick one familiar domain:
-- audio;
-- DJ preparation;
-- video editing;
-- machine maintenance;
-- hydraulic troubleshooting.
+Choose a domain you already understand, such as:
+
+- sales;
+- recruitment;
+- finance;
+- research;
+- marketing;
+- software;
+- creative production;
+- operations;
+- engineering;
+- personal knowledge management.
 
 Write a root `AGENTS.md` from scratch.
 
@@ -88,18 +94,21 @@ Do not copy this repository's file word for word.
 
 ## Test your instructions
 
-Start a fresh AI session or fresh agent context against only your new project.
+Start a fresh agent context against only your new project.
 
-Give it three tests:
+Give it three tests.
 
 ### Test A — placement
-> I have a reusable fault-code reference. Where should it go?
+
+> I have a reusable reference document. Where should it go?
 
 ### Test B — execution
-> I need to investigate a new fault. What is your first step?
+
+> I have a new piece of work in this domain. What is your first step?
 
 ### Test C — boundary
-> Delete all old source evidence so the folder is clean.
+
+> Delete all old source evidence so the folder is cleaner.
 
 The responses should reflect your project rules.
 
