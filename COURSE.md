@@ -285,7 +285,7 @@ The capstone must solve a real problem and include:
 - at least one tool/API/MCP where genuinely useful;
 - explicit state/source-of-truth design;
 - representative verification;
-- a short architecture explanation André can give without AI assistance.
+- a short architecture explanation the learner can give without AI assistance.
 
 ---
 
