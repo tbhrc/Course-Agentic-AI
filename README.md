@@ -1,5 +1,7 @@
 # Course — Agentic AI
 
+**Free public course by [iMPLEMENTAi.ae](https://implementai.ae/) · [Course landing page](https://implementai.ae/course-agentic-ai)**
+
 A practical, build-first course for learning how to **operate, control, build, test and improve useful AI agents and agentic systems**.
 
 This repository is the **canonical general course**. Individual learner repositories may adapt examples, pace and domain projects while preserving the core learning outcomes.
@@ -48,7 +50,7 @@ AI mental models
 
 See [COURSE.md](COURSE.md) for the complete roadmap.
 
-Final proof: [GRADUATION.md](GRADUATION.md) · Continued practice: [CONTINUATION.md](CONTINUATION.md)
+Final proof: [GRADUATION.md](GRADUATION.md) · Continued practice: [CONTINUATION.md](CONTINUATION.md) · Current harness practice: [Pi + DeepSeek Harness](knowledge/current-practice-harnesses.md)
 
 ## Repository map
 
@@ -87,6 +89,16 @@ Example: [Course-Andre-Venter](https://github.com/tbhrc/Course-Andre-Venter).
 
 Personalization must not become a competing source of truth for the general curriculum.
 
+## Built from real implementation work
+
+This course openly publishes the operating principles we use at **[iMPLEMENTAi.ae](https://implementai.ae/)** when turning capable AI into useful business capability.
+
+The course stays vendor-light at the principle level, but it also includes a maintained **current practice layer** so learners can work with useful tools of the moment. As of September 2026, that includes [Pi and DeepSeek Harness](knowledge/current-practice-harnesses.md) for hands-on harness and multi-agent experimentation.
+
+The same principles also sit underneath **[FolderDesk](https://implementai.ae/folderdesk)** — the deeper Business AI Operating System we use when a business needs durable context, reusable Skills, connected systems, operating history and agent work that must continue beyond individual chats.
+
+The course is free. The commercial work is optional.
+
 ## Course doctrine
 
 **Learn by operating and building.**
@@ -94,3 +106,18 @@ Personalization must not become a competing source of truth for the general curr
 A concept should become an action, file, diff, Skill, test, tool call, diagnosis or verified result as quickly as practical.
 
 The course is complete when the learner can independently take a real problem and build a reliable agentic solution—not when every page has merely been read.
+
+
+---
+
+## Want to apply this inside a real business?
+
+Use the course yourself first. That is what it is here for.
+
+If you want hands-on help turning the same principles into working AI capability around your actual business:
+
+- **[AI Build With You](https://implementai.ae/ai-build-with-you)** — work directly with David on real AI opportunities, Skills, workflows, context and useful system connections. Current engagement: **AED 3,700/month**.
+- **[Free AI Implementation Session](https://implementai.ae/bookings)** — bring one real bottleneck and use 30 minutes to identify and, where practical, start implementing the most useful AI opportunity.
+- **[FolderDesk](https://implementai.ae/folderdesk)** — explore the deeper operating layer when AI work needs durable context, reusable capability and continuity across tasks, systems and people.
+
+**Start free:** [Course Agentic AI](https://implementai.ae/course-agentic-ai) · [Open the public GitHub course](https://github.com/tbhrc/Course-Agentic-AI)
