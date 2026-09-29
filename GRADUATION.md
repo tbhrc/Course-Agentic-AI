@@ -6,6 +6,8 @@ Graduation is an **independent proof**, not completion by attendance.
 
 You receive a new practical problem that is not your capstone.
 
+The problem should be different enough from the capstone and heavily practiced examples to prove that you can transfer the underlying Agentic AI method rather than repeat a memorized domain recipe.
+
 Without being given the architecture, you must:
 
 1. clarify the user/business outcome;
