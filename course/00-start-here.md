@@ -20,6 +20,8 @@ If the AI invents rules, misses major rules, or cannot access the repository, fi
 
 Create `work/00-baseline.md`.
 
+If you are using a personalized learner track that already has a learner-profile file, inspect it first. Correct anything stale or inaccurate, then use the baseline to test **current and unknown capability** instead of restating background that is already captured.
+
 Answer in your own words:
 
 1. What do you think an AI agent is?
@@ -41,6 +43,8 @@ Answer in your own words:
 8. What would make this course genuinely useful to you?
 
 Do not make the answers impressive. Make them accurate.
+
+Do not let adjacent experience substitute for evidence. For example, being technically strong in another domain does not automatically prove current Git, coding, API, MCP or Agentic AI competence.
 
 ## Step 3 — Your first operating loop
 
