@@ -31,6 +31,17 @@ Use the learner's baseline evidence to adapt:
 - domain examples;
 - capstone choice.
 
+If a personalized learner track provides a dedicated learner-profile file, read it before choosing pace, examples or a capstone.
+
+Treat a learner profile as evidence, not omniscience:
+
+- keep verified evidence distinct from learner-declared context;
+- distinguish historical training from current demonstrated capability;
+- preserve important unknowns as things to test;
+- do not infer Git, coding, API, MCP or Agentic AI skill merely from adjacent technical/professional competence.
+
+Use familiar expertise as a bridge into new concepts, not as a permanent crutch. Vary analogies and eventually require the learner to transfer the method to a different problem.
+
 If the learner is already strong in a topic, accelerate after a short proof exercise.
 
 If the learner can execute but cannot explain why, reinforce the mental model.
@@ -44,6 +55,7 @@ Read only the material needed for the current objective.
 - Start → [course/00-start-here.md](course/00-start-here.md)
 - Full roadmap → [COURSE.md](COURSE.md)
 - Operating methodology → [METHODOLOGY.md](METHODOLOGY.md)
+- Personalization guidance → [PERSONALIZATION.md](PERSONALIZATION.md)
 - Prompts → [prompts/](prompts/)
 - Playbooks → [playbooks/](playbooks/)
 - Knowledge → [knowledge/](knowledge/)
