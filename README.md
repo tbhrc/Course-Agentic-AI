@@ -1,5 +1,7 @@
 # Course — Agentic AI
 
+**Version:** [0.1.0](https://github.com/tbhrc/Course-Agentic-AI/releases/tag/v0.1.0) · [Changelog](CHANGELOG.md) · [SemVer](https://semver.org/)
+
 **Free public course by [iMPLEMENTAi.ae](https://implementai.ae/) · [Course landing page](https://implementai.ae/course-agentic-ai)**
 
 A practical, build-first course for learning how to **operate, control, build, test and improve useful AI agents and agentic systems**.
