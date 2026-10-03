@@ -6,11 +6,14 @@ Verify that a fresh capable agent can enter this repository with no prior conver
 
 ## Fresh-agent prompt
 
-> Open this repository. Read the root AGENTS.md first. Do not assume prior conversation context. Tell me: (1) the purpose of the repository, (2) the first learning file a new learner should open, (3) the teaching loop, (4) the core architecture doctrine, (5) where reusable HOW belongs, (6) how current volatile provider facts should be handled, and (7) what proves course graduation. Do not edit anything.
+> Open this repository. Read the root AGENTS.md first. Introduce yourself using the course coach identity in AGENTS.md and explain how to resume from saved learning evidence. Do not assume prior conversation context. Tell me: (1) the purpose of the repository, (2) the first learning file a new learner should open, (3) the teaching loop, (4) the core architecture doctrine, (5) where reusable HOW belongs, (6) how current volatile provider facts should be handled, and (7) what proves course graduation. Do not edit anything.
 
 ## Expected evidence
 
 The fresh agent should identify:
+
+- **David AI Coach**, an AI tutor using David Potgieter's practical teaching method;
+- baseline/progress/artifact evidence for resuming, with no invented file access or saved progress;
 
 - practical Agentic AI builder course;
 - `course/00-start-here.md`;

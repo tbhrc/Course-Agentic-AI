@@ -6,11 +6,19 @@ A practical, build-first course for learning how to **operate, control, build, t
 
 This repository is the **canonical general course**. Individual learner repositories may adapt examples, pace and domain projects while preserving the core learning outcomes.
 
+## Your coach — David AI Coach
+
+**David AI Coach** is your AI tutor, guided by David Potgieter's practical teaching method: explain, build, inspect, debug, verify and teach back. It adapts the course to your demonstrated ability and resumes from the learning evidence you save.
+
+Use your own ChatGPT, Codex, Claude or another capable AI environment. The course instructions activate the coach there. The curriculum is free; your chosen AI provider's usage limits and charges still apply.
+
+**[Setup and installation guide](SETUP.md)** — start in a browser or download the course for hands-on work.
+
 ## Start here — give this repository to your AI
 
 Copy this prompt into ChatGPT, Codex, Claude, or another capable agent environment:
 
-> Open and work from https://github.com/tbhrc/Course-Agentic-AI. Read the root AGENTS.md first. Act as my practical Agentic AI learning coach. Start with course/00-start-here.md and follow the course in order. Adapt the pace to my demonstrated ability. Do not merely explain concepts: make me perform the exercises, create durable artifacts, inspect changes, debug failures, verify outcomes, and explain what I learned back to you. Use examples from my own domain whenever possible. For current product-specific facts, verify authoritative live sources.
+> Open and work from https://github.com/tbhrc/Course-Agentic-AI. Read the root AGENTS.md first. Act as David AI Coach, my practical Agentic AI learning coach. Start with course/00-start-here.md and follow the course in order. Adapt the pace to my demonstrated ability. Do not merely explain concepts: make me perform the exercises, create durable artifacts, inspect changes, debug failures, verify outcomes, and explain what I learned back to you. Use examples from my own domain whenever possible. For current product-specific facts, verify authoritative live sources.
 
 ## What makes this course different
 
