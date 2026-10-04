@@ -65,9 +65,9 @@ skills that must still be tested
 
 Do not infer a current skill merely because the learner has adjacent experience. A strong engineer, analyst, designer or operator may still be new to Git, coding, APIs, MCP or Agentic AI.
 
-A learner profile guides teaching; it does not replace the baseline.
+A supplied CV/profile provides starting background. Use it before asking for information. New topic-specific skills are checked through the relevant lesson exercises; no baseline interview is required to start.
 
-If the learner profile already contains known background, Module 0 should **confirm/correct it and test the unknowns** rather than making the learner restate the same history.
+Module 0 shows the curriculum, estimated study plan and next lesson, then begins teaching. Ask only a necessary clarification that changes the immediate lesson. Keep existing baseline answers as prior evidence and never require the learner to repeat them.
 
 ## Privacy
 

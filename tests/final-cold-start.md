@@ -1,45 +1,46 @@
-# Final Cold-Start Test
+# Course Startup and Continuation Acceptance Cases
 
 ## Purpose
 
-Verify that a fresh capable agent can enter this repository with no prior conversation and correctly operate the course.
+Verify the real learner-facing opening for the general practical Agentic AI course: curriculum first, teaching next, existing evidence reused.
 
-## Fresh-agent prompt
+## Case 1 — New learner, supplied background, no baseline file
 
-> Open this repository. Read the root AGENTS.md first. Introduce yourself using the course coach identity in AGENTS.md and explain how to resume from saved learning evidence. Do not assume prior conversation context. Tell me: (1) the purpose of the repository, (2) the first learning file a new learner should open, (3) the teaching loop, (4) the core architecture doctrine, (5) where reusable HOW belongs, (6) how current volatile provider facts should be handled, and (7) what proves course graduation. Do not edit anything.
+Start a fresh course session using:
 
-## Expected evidence
+> Read AGENTS.md and COURSE.md first. Act as David AI Coach. I have supplied my background. Show me what I will learn, the roadmap, how long to allow and what we do next. Start teaching; do not give me an intake questionnaire.
 
-The fresh agent should identify:
+Expected opening:
 
-- **David AI Coach**, an AI tutor using David Potgieter's practical teaching method;
-- baseline/progress/artifact evidence for resuming, with no invented file access or saved progress;
+- Introduces **David AI Coach** as an AI tutor.
+- Links [COURSE.md](../COURSE.md), shows the ordered modules and their outcomes/practical results.
+- Explains the **50–75 active-hour** planning estimate and **10–15 weeks at 5 hours/week**, with adaptable pacing.
+- Shows current module, today's outcome, session estimate, expected output and next lesson.
+- Reuses supplied background and begins Module 1 with an explanation and worked example before one exercise.
+- Does not require `work/00-baseline.md` or ask eight questions, together or sequentially, before teaching.
 
-- practical Agentic AI builder course;
-- `course/00-start-here.md`;
-- explain → show → learner does → inspect → debug → verify → teach-back → keep artifact;
-- one capable agent / smallest architecture before orchestration;
-- reusable HOW in Skills;
-- volatile public/product facts verified from live authoritative sources;
-- graduation through independent build/verification/explanation, not reading completion.
+## Case 2 — Learner already answered the old eight questions
 
-## Failure conditions
+Supply the existing answers, then ask:
 
-Fail if the agent:
+> I already answered your questions. Where is my course and what should I learn next?
 
-- starts at an arbitrary module;
-- treats the repository as André-specific;
-- recommends multi-agent first;
-- says chat memory is authoritative state;
-- treats every task as requiring an Issue/PR;
-- copies volatile product facts instead of live verification;
-- cannot locate graduation criteria.
+Expected: preserves those answers as evidence, shows the roadmap and next lesson, and starts teaching. No repeated interview or requirement to recreate the baseline.
 
-## Repair rule
+## Case 3 — Returning learner with practical progress
 
-If the cold-start test fails:
+Supply `work/progress.md` and relevant artifacts showing the current module and unfinished step, then ask:
 
-1. identify the smallest routing/instruction gap;
-2. fix only that gap;
-3. rerun the same test once;
-4. stop when the expected route is recovered.
+> Continue my course from where I stopped.
+
+Expected: resumes the evidenced step, shows today's outcome and next lesson, and revises the remaining estimate. Does not restart Module 0 or infer mastery solely from a CV or questionnaire answers.
+
+## Case 4 — Repository access unavailable
+
+Expected: states the access limitation and asks for only the instructions/roadmap/current lesson needed. Does not invent file access, saved progress, a curriculum or completion.
+
+## Failure and repair
+
+Fail an opening that withholds the curriculum, starts with a baseline questionnaire, requires a baseline file, repeats supplied CV/background, invents mastery, or presents the study estimate as a guaranteed duration.
+
+Repair the smallest conflicting instruction, then repeat the failed case. These are behavioral acceptance cases; document inspection alone is not proof of a live learner-session pass.

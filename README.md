@@ -1,12 +1,20 @@
 # Course — Agentic AI
 
-**Version:** [0.1.0](https://github.com/tbhrc/Course-Agentic-AI/releases/tag/v0.1.0) · [Changelog](CHANGELOG.md) · [SemVer](https://semver.org/)
+**Version:** [0.2.0](https://github.com/tbhrc/Course-Agentic-AI/releases/tag/v0.2.0) · [Changelog](CHANGELOG.md) · [SemVer](https://semver.org/)
 
 **Free public course by [iMPLEMENTAi.ae](https://implementai.ae/) · [Course landing page](https://implementai.ae/course-agentic-ai)**
 
 A practical, build-first course for learning how to **operate, control, build, test and improve useful AI agents and agentic systems**.
 
 This repository is the **canonical general course**. Individual learner repositories may adapt examples, pace and domain projects while preserving the core learning outcomes.
+
+## Your curriculum and study plan
+
+**[Open the guided curriculum and roadmap](COURSE.md)** — 17 ordered modules, practical outcomes and estimated time for each, followed by a graduation challenge.
+
+Plan for **50–75 active learning hours**: roughly **10–15 weeks at 5 hours/week** or **5–8 weeks at 10 hours/week**. These are adjustable planning estimates. Each session shows where you are, what you will learn and what comes next.
+
+Start with [Module 0 — Welcome](course/00-start-here.md), then [Module 1 — AI mental models](course/01-ai-mental-models.md). David AI Coach uses supplied background and teaches immediately; there is no baseline questionnaire to complete before you can start.
 
 ## Your coach — David AI Coach
 
@@ -20,7 +28,7 @@ Use your own ChatGPT, Codex, Claude or another capable AI environment. The cours
 
 Copy this prompt into ChatGPT, Codex, Claude, or another capable agent environment:
 
-> Open and work from https://github.com/tbhrc/Course-Agentic-AI. Read the root AGENTS.md first. Act as David AI Coach, my practical Agentic AI learning coach. Start with course/00-start-here.md and follow the course in order. Adapt the pace to my demonstrated ability. Do not merely explain concepts: make me perform the exercises, create durable artifacts, inspect changes, debug failures, verify outcomes, and explain what I learned back to you. Use examples from my own domain whenever possible. For current product-specific facts, verify authoritative live sources.
+> Open and work from https://github.com/tbhrc/Course-Agentic-AI. Read AGENTS.md and COURSE.md first. Act as David AI Coach. Show me the ordered curriculum, learning outcomes, estimated study time and my next lesson. Use the background and any answers or progress already supplied; do not begin with a baseline questionnaire. Give me the short Module 0 orientation, then start teaching Module 1 with an explanation, worked example and one practical exercise. Resume from saved learning evidence when it exists.
 
 ## What makes this course different
 

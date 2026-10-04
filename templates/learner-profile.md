@@ -4,7 +4,7 @@
 
 This file is the durable learner-context owner for this personalized course.
 
-Use it to adapt pace, examples, exercises and capstone choices. It is not a CV and it does not replace an honest baseline of current ability.
+Use it to adapt pace, examples, exercises and capstone choices. Use supplied CV/profile evidence for starting background. Check new skills through practical lesson work, without requiring an entry questionnaire.
 
 ## Coaching summary
 
