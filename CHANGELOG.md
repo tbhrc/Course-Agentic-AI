@@ -4,6 +4,16 @@ Notable changes to this course are recorded here. Versions follow [Semantic Vers
 
 ## [Unreleased]
 
+## [0.3.0] — 2026-10-11
+
+### Changed
+
+- Removed GitHub registration, GitHub connection and repository-reading prerequisites from the first coaching session.
+- Introduced a single self-contained first-session prompt with real curriculum, Module 1 definitions, worked example, exercise and a truthful CHECKPOINT/resume path.
+- Rewrote browser setup and Module 0 as teaching-first entry points; GitHub account/setup is taught at Module 4, coding-agent setup at Module 6.
+- Updated coach operating instructions and regression cases so inaccessible GitHub files never block the first exercise.
+
+
 ## [0.2.0] — 2026-10-04
 
 ### Added
@@ -29,3 +39,5 @@ Notable changes to this course are recorded here. Versions follow [Semantic Vers
 
 [0.1.0]: https://github.com/tbhrc/Course-Agentic-AI/releases/tag/v0.1.0
 [0.2.0]: https://github.com/tbhrc/Course-Agentic-AI/releases/tag/v0.2.0
+
+[0.3.0]: https://github.com/tbhrc/Course-Agentic-AI/releases/tag/v0.3.0

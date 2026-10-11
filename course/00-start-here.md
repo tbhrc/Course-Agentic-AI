@@ -1,57 +1,22 @@
-# Module 0 — Welcome and Your Course Plan
+# Module 0 — Welcome: start learning before configuring anything
 
-**Estimated time:** 30–60 minutes, including setup and the first short learning activity. If setup is ready, the welcome itself should take only a few minutes.
+**Begin here:** [Start first lesson](../START-HERE.md). You need an AI chat app, not GitHub registration or access to this repository.
 
-## See where the course is taking you
+## The course in one minute
 
-Your existing CV, learner profile, prior answers or work can supply the starting context. You do not need to complete an intake questionnaire before learning.
+This course has **17 modules (0-16)** plus a graduation challenge. The complete [roadmap](../COURSE.md) specifies what to learn and build. Plan for approximately **50–75 active learning hours**, adjusted from actual progress.
 
-Open [your guided curriculum](../COURSE.md). It shows every module in order, what you will learn, what you will make and the estimated time.
+1. **Today:** Learn the difference between an AI model, an assistant and an agent.
+2. **Worked example:** Follow the inputs, processing, actions and checks of a familiar system.
+3. **Your first exercise:** Map those same four elements yourself; the coach examines your answer.
+4. **Next:** Complete the rest of Module 1, then move to Module 2's one-agent task.
 
-Plan for **50–75 active learning hours** across the full course, including labs, capstone and graduation. A starting schedule is **5 hours per week for about 10–15 weeks**. The coach adapts this estimate as you progress.
+## First-session success
 
-The route is:
+Your coach must *teach first* and let you attempt an exercise. It must not withhold the first lesson because GitHub, Codex, connections, file-reading or prior learner records are unavailable. A coach can teach this introductory concept from the [self-contained start prompt](../START-HERE.md) without pretending it has read any inaccessible documents.
 
-**AI mental models → one reliable agent → project instructions → files/Git/GitHub → Skills → Codex/coding literacy → APIs/MCP → state/debugging/safety → architecture/capstone → multi-agent/production → graduation.**
+There is **no baseline questionnaire**. Use supplied background when available; do not make the learner repeat their CV. The coach demonstrates a concept, shows a worked example, then asks only **one** practical exercise question at a time.
 
-## What David AI Coach does first
+At the end of a session, type **CHECKPOINT**. Keep the copyable learning summary to resume in a new chat; staying in the same chat is simplest. Saving `work/progress.md` is optional until you reach file-based work, and progress must never be reported as saved without proof.
 
-Your opening screen should contain:
-
-- **Your course:** Practical Agentic AI — [full curriculum](../COURSE.md).
-- **Your position:** Module 0 orientation, then [Module 1 — AI mental models](01-ai-mental-models.md).
-- **Today's outcome:** understand model, assistant and agent using a familiar workflow, such as preparing a handover note.
-- **Session length:** about 45–60 minutes, adjustable to your pace.
-- **What you will make:** the first part of `work/01-system-map.md`.
-- **Next:** finish Module 1's system map, then [Module 2 — Operating one agent](02-operating-one-agent.md).
-
-The coach briefly confirms that it read the course instructions and supplied profile when present. It then teaches the first concept and shows a worked example before asking you to try anything.
-
-## Start the first lesson now
-
-Ask David AI Coach:
-
-> Show me my curriculum and current position. Use my supplied background and any previous answers. Begin Module 1 by explaining the difference between a model, an assistant and an agent, then show one example from a familiar workflow. Give me one small part of the system-map exercise to try. Do not start another baseline questionnaire.
-
-The first exercise is a learning activity: identify the input, action, output and verification in the example. The coach helps you turn it into a system map during Module 1.
-
-You do not need to understand AI terminology before being taught it.
-
-## Keep your place
-
-The coach creates or updates `work/progress.md` in your own copy when file-writing is available. Begin with existing profile/background evidence and record:
-
-- current module and step;
-- the outcome of the session;
-- completed work and evidence;
-- anything that needs practice;
-- the exact next action and next lesson;
-- the remaining study-time estimate.
-
-If the AI cannot write files, save the progress text it provides. If you already answered the old eight questions, keep those answers and continue into Module 1; do not repeat them. An absent `work/00-baseline.md` never prevents starting.
-
-## Ready to continue
-
-You have seen the roadmap, know today's outcome and next lesson, and David AI Coach can access the current teaching files. Continue to [Module 1 — AI mental models](01-ai-mental-models.md).
-
-Need installation help? Use [SETUP.md](../SETUP.md).
+**Next:** [Module 1 — AI mental models](01-ai-mental-models.md).

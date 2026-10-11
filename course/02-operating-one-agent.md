@@ -63,7 +63,7 @@ BRIEF
 
 ## Exercise 1 — rewrite vague tasks
 
-Create `work/02-agent-briefs.md`.
+Draft and test your Agent Brief in the AI chat first. Save it as `work/02-agent-briefs.md` when file-writing is available; no account, connector or repository is required for this lesson.
 
 Rewrite these as controlled Agent Briefs:
 

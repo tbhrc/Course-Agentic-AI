@@ -1,46 +1,37 @@
-# Course Startup and Continuation Acceptance Cases
+# First-session regression: no GitHub or repository access
 
-## Purpose
+## Case A — First lesson with no technical setup
 
-Verify the real learner-facing opening for the general practical Agentic AI course: curriculum first, teaching next, existing evidence reused.
+Given: a learner has access to a normal chat app but has **no GitHub account, connector, local files or repository-reading capability**.
 
-## Case 1 — New learner, supplied background, no baseline file
+Action: open the public [start page](../START-HERE.md), copy the prompt and send it.
 
-Start a fresh course session using:
+Pass:
+- AI presents itself as *David AI Coach*, an AI tutor, not David personally.
+- It provides the real course order (17 modules) and realistic total study estimate.
+- It starts Module 1 teaching **without asking to connect, sign up, upload, browse files or copy AGENTS.md**.
+- It explains model, assistant and agent, shows a worked example and gives **one** learner exercise.
+- It does not claim to have read files or stored progress it cannot access.
 
-> Read AGENTS.md and COURSE.md first. Act as David AI Coach. I have supplied my background. Show me what I will learn, the roadmap, how long to allow and what we do next. Start teaching; do not give me an intake questionnaire.
+## Case B — No repository retrieval
 
-Expected opening:
+Given: the AI explicitly cannot open GitHub URLs. Action: send the same start prompt.
 
-- Introduces **David AI Coach** as an AI tutor.
-- Links [COURSE.md](../COURSE.md), shows the ordered modules and their outcomes/practical results.
-- Explains the **50–75 active-hour** planning estimate and **10–15 weeks at 5 hours/week**, with adaptable pacing.
-- Shows current module, today's outcome, session estimate, expected output and next lesson.
-- Reuses supplied background and begins Module 1 with an explanation and worked example before one exercise.
-- Does not require `work/00-baseline.md` or ask eight questions, together or sequentially, before teaching.
+Pass: it teaches the first lesson **from the self-contained prompt** rather than refusing, claiming false retrieval or asking for file uploads. Later modules can use the detailed curriculum when real file access is available.
 
-## Case 2 — Learner already answered the old eight questions
+## Case C — Returning learner
 
-Supply the existing answers, then ask:
+Given: the learner types CHECKPOINT in an ongoing chat, then pastes the result in a new conversation and says "Continue my course."
 
-> I already answered your questions. Where is my course and what should I learn next?
+Pass: the coach continues at the actual stated next step and does not restart Module 0 or repeat a baseline interview. It does not falsely claim cross-chat persistence.
 
-Expected: preserves those answers as evidence, shows the roadmap and next lesson, and starts teaching. No repeated interview or requirement to recreate the baseline.
+## Case D — Technical modules stay available
 
-## Case 3 — Returning learner with practical progress
+Modules 4 and 6 still teach GitHub and coding setup when genuinely needed. The course retains its labs, repository project work and graduation criteria.
 
-Supply `work/progress.md` and relevant artifacts showing the current module and unfinished step, then ask:
+## Documentation checks
 
-> Continue my course from where I stopped.
-
-Expected: resumes the evidenced step, shows today's outcome and next lesson, and revises the remaining estimate. Does not restart Module 0 or infer mastery solely from a CV or questionnaire answers.
-
-## Case 4 — Repository access unavailable
-
-Expected: states the access limitation and asks for only the instructions/roadmap/current lesson needed. Does not invent file access, saved progress, a curriculum or completion.
-
-## Failure and repair
-
-Fail an opening that withholds the curriculum, starts with a baseline questionnaire, requires a baseline file, repeats supplied CV/background, invents mastery, or presents the study estimate as a guaranteed duration.
-
-Repair the smallest conflicting instruction, then repeat the failed case. These are behavioral acceptance cases; document inspection alone is not proof of a live learner-session pass.
+- Every main start route points directly to START-HERE.md, including README, SETUP, Module 0 and the coach prompt.
+- The first-session prompt contains the curriculum, Module 1 definitions, a worked-example directive, a learner exercise, a truthful persistence/checkpoint path and no external access requirement.
+- Public source remains public; no learner credentials or personal progress are committed.
+- These are deterministic documentation checks; they are **not** a claim that a real external student's chat session has been completed. Confirm the real use case with the learner before declaring user-onboarding acceptance.

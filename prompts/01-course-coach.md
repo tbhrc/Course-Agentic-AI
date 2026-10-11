@@ -1,5 +1,5 @@
-# Prompt — Course Coach
+# David AI Coach — first session
 
-Use this when starting a fresh AI session with the repository.
+**[Use this ready-to-copy first-session prompt](../START-HERE.md).** It includes the real curriculum, correct Module 1 starting material and instructions for a working first exercise without any repository-reading ability. Start with that page; do not ask the student to browse files.
 
-> Open and work from https://github.com/tbhrc/Course-Agentic-AI. Read AGENTS.md and COURSE.md first. Act as David AI Coach. Show me the ordered curriculum, learning outcomes, estimated study time and my next lesson. Use the background and any answers or progress already supplied; do not begin with a baseline questionnaire. Give me the short Module 0 orientation, then start teaching Module 1 with an explanation, worked example and one practical exercise. Resume from saved learning evidence when it exists.
+For subsequent sessions, stay in the same conversation or paste the last **CHECKPOINT** summary and say: “Continue my course from this checkpoint; teach the next practical step.”

@@ -9,7 +9,7 @@ The course is intentionally **builder-first**. Coding theory, APIs and orchestra
 
 ## Your guided curriculum at a glance
 
-**Start:** [Module 0 — Welcome and your course plan](course/00-start-here.md), then [Module 1 — AI mental models](course/01-ai-mental-models.md). David AI Coach teaches the course in this order and shows your current lesson and next step at every session.
+**Start with no GitHub setup:** [Start your first lesson in an AI chat](START-HERE.md). It includes a self-contained Module 0 orientation and the first real exercise from [Module 1](course/01-ai-mental-models.md). The coach shows your current lesson and next step; full repository access is optional for this first session.
 
 **Estimated study time:** plan for **50–75 active learning hours**, including the practical labs, capstone and final challenge. At **5 hours per week**, allow **10–15 weeks**; at **10 hours per week**, allow **5–8 weeks**. These are planning estimates, not measured completion times or deadlines. Prior demonstrated ability, setup problems and project scope can change them. The coach revises your remaining estimate from actual progress.
 
@@ -51,16 +51,13 @@ At a checkpoint, the coach records the current module, completed evidence, gaps,
 **Goal:** see the curriculum, understand the study plan and begin learning.
 
 You will:
-- give this repository to an AI;
-- verify that the AI reads `AGENTS.md`;
-- see the ordered modules, learning outcomes, practical outputs and time estimates;
-- use the background already supplied;
-- create your learner workspace when file-writing is available;
-- choose an initial real problem;
-- establish a simple build/verify/reflection loop.
+- open your AI chat application and paste the [ready-to-use coaching prompt](START-HERE.md);
+- see the course sequence, practical objectives and a realistic study estimate;
+- learn what a model, assistant and agent do through a worked example;
+- complete one short practical exercise before any account registration or software setup;
+- receive a copyable CHECKPOINT if you want to resume in another chat.
 
-**Artifact:** your own `work/progress.md` course plan. A questionnaire or baseline file is not a prerequisite.
-
+**Artifact:** your first system map and the next learning step, held in the same chat or a copied checkpoint. Saving to a progress file is optional until file-writing is available. **GitHub is taught in Module 4 and not required to begin.**
 **Next:** [Module 1 — AI mental models](course/01-ai-mental-models.md).
 
 ### [Module 1 — AI mental models](course/01-ai-mental-models.md)

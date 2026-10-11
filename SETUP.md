@@ -1,49 +1,32 @@
-# Set up your course and David AI Coach
+# Course setup — optional technical steps after you begin learning
 
-**Course:** https://github.com/tbhrc/Course-Agentic-AI
+## First lesson: no installation
 
-David AI Coach is the AI tutor defined in this course's `AGENTS.md`. It runs in your chosen AI environment using David Potgieter's practical teaching method. Activating it means giving that environment the course files and startup prompt.
+**[Start your first AI coaching session](START-HERE.md).** Open your AI chat app, copy the supplied prompt and start Module 1. You do **not** need a GitHub account, GitHub connector, cloned repository, uploaded Markdown files, terminal or coding application.
 
-## Start in your browser
+The first exercise works even if the AI cannot read a GitHub URL. Its opening prompt provides enough context and correct course definitions to teach immediately. A later lesson may require its detailed course material, but lack of repository access never stops the first session.
 
-1. Open the course link above and [ChatGPT](https://chatgpt.com/) or your preferred capable AI assistant.
-2. Paste the startup prompt below.
-3. Have the coach confirm it actually read `AGENTS.md` and `course/00-start-here.md`. A link alone does not prove file access.
-4. If it cannot read the repository, download the course as described below and upload those individual Markdown files, or paste their contents. Add the current lesson and your saved progress as needed. File availability and limits depend on your AI provider.
-5. Ask David AI Coach to show your curriculum and study plan, then begin the first lesson. Save your completed work and next step in your own course folder.
+## When you reach Module 4: files and GitHub
 
-You can begin this way without installing the course or writing code.
+Module 4 teaches Git and GitHub *as subject matter*. The coach explains why it is useful, whether you need an account for the particular exercise, how to create one, how to clone or download, and how to verify it. Public course reading does not require GitHub registration.
 
-## Download for practical work
-
-1. Open the course on GitHub. Choose **Code → Download ZIP** and extract it into a folder you will keep, such as `Course-Agentic-AI`.
-2. Install or open your preferred AI coding environment. For OpenAI's current desktop installation and folder-opening instructions, use the [official app guide](https://developers.openai.com/codex/app/), sign in with your own account, open the extracted course folder, and choose Codex for coding exercises. Product names and interfaces can change; follow the current official instructions for your operating system.
-3. Start a new conversation in that folder and paste the prompt below. Confirm that the AI can read the files and save your work there.
-4. The ZIP gives you the course files. The Git/GitHub module will guide Git setup and version history when you reach it. Install lab dependencies only when the relevant lab calls for them.
-
-If Git is already installed, cloning is an alternative to ZIP. These commands download the course and move your terminal into its folder:
+If you want to work locally, use the public course page's **Code -> Download ZIP**, extract it and open the folder. Clone with Git only after that tool has been taught and installed:
 
 ```sh
 git clone https://github.com/tbhrc/Course-Agentic-AI.git
-cd Course-Agentic-AI
 ```
 
-## Activate David AI Coach
+Your own exercises and private progress belong in your local copy or personal/private working space. Do not publish private answers to this public course.
 
-Copy this into your AI environment:
+## When you reach Module 6: AI coding tools
 
-> Open and work from https://github.com/tbhrc/Course-Agentic-AI. Read AGENTS.md and COURSE.md first. Act as David AI Coach. Show me the ordered curriculum, learning outcomes, estimated study time and my next lesson. Use the background and any answers or progress already supplied; do not begin with a baseline questionnaire. Give me the short Module 0 orientation, then start teaching Module 1 with an explanation, worked example and one practical exercise. Resume from saved learning evidence when it exists.
+At Module 6, use your chosen coding agent, such as [Codex](https://developers.openai.com/codex/app/), and open your course/project folder. The coach will guide the installation and first small test **then**. Your chosen AI provider's sign-in, access conditions and usage limits are separate from GitHub and depend on that provider.
 
-Expect it to introduce itself as **David AI Coach**, show your curriculum and estimated study time, confirm your next lesson, and begin teaching. Use `prompts/01-course-coach.md` to resume in a fresh session.
+## Course continuity
 
-## Keep your progress
+- Stay in the same AI chat while learning whenever possible.
+- Ask the coach for **CHECKPOINT** before switching chat or devices, and keep the copyable short summary.
+- If an agent can write a local file, it may also save `work/progress.md`, but file-writing is optional; never claim it saved progress unless verified.
+- For later detailed lessons, use the [curriculum](COURSE.md). If the AI cannot read a required file, ask it to work from the *specific lesson text*, rather than redoing setup or uploading an entire repository.
 
-Your working copy holds your exercise artifacts and `work/progress.md`. Keep any existing `work/00-baseline.md` answers as useful prior evidence; creating that file is optional. Ask David AI Coach to save your demonstrated understanding, gaps and next step at a meaningful checkpoint. In a browser without file-writing access, save the text it provides yourself and supply it next time.
-
-Keep personal answers, private documents and secrets in your own local copy or private repository. Public course files are the shared curriculum.
-
-The curriculum and coach instructions are free. Your chosen AI provider's plan, limits and charges apply separately.
-
-## Current setup sources
-
-Provider setup verified on 4 October 2026: [OpenAI desktop guide](https://developers.openai.com/codex/app/) and [ChatGPT file uploads FAQ](https://help.openai.com/en/articles/8555545-file-uploads-faq). Recheck current official guidance if an installation screen or capability differs.
+**If you are blocked by GitHub or connectors today, close that setup path and start the lesson instead.**

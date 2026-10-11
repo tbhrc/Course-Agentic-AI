@@ -121,7 +121,7 @@ agent says it happened
 
 ## Practical exercise — map a familiar system
 
-Create `work/01-system-map.md`.
+Start the map in your AI chat. When file-writing becomes available, you can also save it as `work/01-system-map.md`. A file or GitHub account is **not** needed to complete this module.
 
 Choose any system you already understand well, for example:
 

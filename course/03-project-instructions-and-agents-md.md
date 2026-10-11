@@ -88,7 +88,7 @@ Choose a domain you already understand, such as:
 - engineering;
 - personal knowledge management.
 
-Write a root `AGENTS.md` from scratch.
+Write and test the **content** of a root `AGENTS.md` in your AI chat first. If you have a local working folder, save it as a real file and retest. GitHub signup and repository connections are deferred until Module 4.
 
 Do not copy this repository's file word for word.
 
